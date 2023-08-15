@@ -1,12 +1,20 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main- enrty
- * Description: print _putchar.
- * Return: 0 (success)
+ * main - enrty
+ * Description: print _putchar using outchar prototype.
+ * Return: Always 0 (success)
 */
+
 int main(void)
 {
-	printf("_putchar");
+	char str[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ch++)
+	{
+	_putchar(str[ch]);
+	_putchar('\n');
+	}
 	return (0);
 }
