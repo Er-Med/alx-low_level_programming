@@ -1,4 +1,5 @@
-#include"main.h"
+#include "main.h"
+
 /**
  * print_alphabet - utilizes the _putchar function to print
  * the alphabet a - z
@@ -9,7 +10,7 @@ void print_alphabet(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	_putchar(str[ch]);
+	_putchar(ch);
 	}
 	_putchar('\n');
 }
